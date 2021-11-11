@@ -1,0 +1,25 @@
+{
+  "name": "dumbingofage-crawler",
+  "version": "1.0.0",
+  "description": "Crawler to navigate throught DoA blog to get all pages to get respectives characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npm run tsc -- ./app/index.ts && node ./app/index.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "cheerio": "^1.0.0-rc.10",
+    "got": "^11.8.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  }
+}
